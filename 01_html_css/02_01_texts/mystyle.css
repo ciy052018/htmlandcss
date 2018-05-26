@@ -1,0 +1,16 @@
+html {
+    font-size: 12px;
+}
+
+h1 {
+    background-color: blue;
+    color:brown;
+}
+
+em {
+    font-size: 1.25rem;
+}
+
+.my_color {
+    color: orangered;
+}
