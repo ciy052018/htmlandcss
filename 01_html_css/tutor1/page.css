@@ -122,3 +122,23 @@ input[type=submit]:hover{
 input[type]:-webkit-autofill {
     box-shadow: 0 0 0px 1000px white inset;
 }
+
+
+@media(max-width:768px){
+
+	h1 {
+		font-size: 18px;
+	}
+
+}
+
+@media(min-width:900px){
+
+	h1 {
+		font-size:70px;
+	}
+
+}
+
+
+
