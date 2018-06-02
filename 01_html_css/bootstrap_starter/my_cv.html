@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bootstrap Walkthrough</title>
 
     <!-- default bootstrap -->
@@ -19,17 +21,230 @@
     <!-- animate.css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
     
+    <link rel="stylesheet" href="custom.css">
+
     <!-- use this style for testing and development purposes -->
-    <!-- <style type="text/css">
-    .container{border: 2px dotted green;}
-    .row{border: 1px dotted red;}
-    .row [class*=' col-']{border: 2px dotted purple;}
-    </style> -->
+    
     
 </head>
 <body>
 
-    
+    <div class="container">
+        
+        <!-- row 1 -->
+        <div class="row">
+            <div class="col-md-12">
+                
+                <div class="jumbotron">
+                    <h1>Eat, Code, Sleep, Repeat</h1>
+                    <p>
+                      Tony Stark  
+                    </p>
+                    <p>
+                        <a class="btn btn-primary" href="http://google.com">
+                            Learn More
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- row 2 -->
+        <div class="row">
+            <div class="col-md-4">
+                
+                <div class="thumbnail">
+                    <img src="http://via.placeholder.com/400x400" alt="">
+                    <div class="caption">
+                        <h3>Portfolio 1</h3>
+                        <p>Lorem ipsum Lorem ipsum</p>
+                        <p>
+                            <a class="btn btn-primary" href="http://google.com">
+                                View More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                
+                <div class="thumbnail">
+                    <img src="http://via.placeholder.com/400x400" alt="">
+                    <div class="caption">
+                        <h3>Portfolio 2</h3>
+                        <p>Lorem ipsum Lorem ipsum</p>
+                        <p>
+                            <a class="btn btn-primary" href="http://google.com">
+                                View More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                
+                <div class="thumbnail">
+                    <img src="http://via.placeholder.com/400x400" alt="">
+                    <div class="caption">
+                        <h3>Portfolio 3</h3>
+                        <p>Lorem ipsum Lorem ipsum</p>
+                        <p>
+                            <a class="btn btn-primary" href="http://google.com">
+                                View More
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- row 3 -->
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/aJOTlE1K90k"></iframe>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- row 4 -->
+        <div class="row">
+            <div class="col-md-6">
+                
+                <h3>
+                    Talk to me
+                </h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="my_name">Name</label>
+                        <input type="text" class="form-control" name="my_name" id="my_name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="my_email">Email</label>
+                        <input type="email" class="form-control" name="my_email" id="my_email">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="my_radio" id="my_radio_1"> test
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="my_radio" id="my_radio_2"> test 2
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Drop me an Email">
+                    </div>
+
+                </form>
+
+            </div>
+            <div class="col-md-6 text-center">
+                
+                <h3>About Me</h3>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, illo hic, eligendi aliquam cum odio sapiente dolorem in sint quos quibusdam totam ut ipsam optio explicabo molestiae? Soluta, eveniet aliquid?
+                </p>
+
+            </div>
+        </div>
+
+        <!-- row 5 -->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Working Hours</h3>
+                <table class="table">
+                    <tr>
+                        <th>
+                            Day
+                        </th>
+                        <th>
+                            Hours
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Monday
+                        </td>
+                        <td>
+                            9-6pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Tuesday
+                        </td>
+                        <td>
+                            9-6pm
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Wednesday
+                        </td>
+                        <td>
+                            9-6pm
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.785310671736!2d103.79004134946518!3d1.3038349990443774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a43fb9b3f19%3A0xbb5708aad3f4f9a0!2sBiopolis+Way%2C+One+North+(Jtc)!5e0!3m2!1sen!2ssg!4v1527912792307" class="embed-responsive-item"></iframe>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                
+                <h3>Find me:</h3>
+                <div class="list-group">
+                    <a href="tel:1234" class="list-group-item">
+                        <i class="fa fa-phone" ></i> +65 89898989
+                    </a>
+                    <a href="mailto:lucius@donkeyn.co" class="list-group-item">
+                        <i class="fa fa-envelope" ></i> lucius@donkeyn.co
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- row 6 -->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
 
 </body>
 </html>
